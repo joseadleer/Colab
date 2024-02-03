@@ -1,0 +1,12 @@
+
+div{
+    display: flexbox;
+}
+
+ul{
+    display: inline-flexbox;
+}
+
+li{
+    list-style-type: none
+}
