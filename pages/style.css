@@ -40,15 +40,6 @@ body{
     display: none;
 }
 
-header{
-    width: 100%;
-    padding: 20px 4%;
-    transition: .5s;
-    background-position: top;
-    background-color: #2C3135;
-    background-attachment: fixed;
-}
-
 header .menu{
     list-style-type: none;
     margin: auto;

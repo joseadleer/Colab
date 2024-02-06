@@ -5,42 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jdr</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css-js/css/bootstrap.min.css">
+    <script src="../css-js/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-gs5msXaOTzrUOLWET6Nvu9gqNY9fB88V9ySb5p8XvOim/v8s6GEWPyFEkA9G5IxF" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="flex">
-                <a href="index.html"><img src="../imagem/logo2.png" alt="logo" width="100px" height="100px"></a>
-                <div class="div-menu">
-                        <ul class="menu">
-                            <li class="nav-item"><a class="nav-link li-home" href="../index.html" target="_parent">HOME</a></li>
-                            <li class="nav-item"><a class="nav-link li-jdr" href="jdr.html" target="_self" rel="jdr">JDR</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">SERVIÇOS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">CONTATO</a></li>
-                        </ul>
-                </div>
-                <nav>
-                    <a href="https://instagram.com/jdroficinamecanica?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="next"><button>
-                        <img src="../imagem/instagram1.png" alt="instagram" width="50px" height="50px">
-                    </button></a>
-                </nav>
-
-                <div id="menu-icon">
-                    <button id="btn-mobile"><img class="icon" src="../../imagem/menu_white_36dp.svg" alt=""></button>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Meu Site</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Página Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jdr.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <!-- Ícone de Instagram -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://instagram.com/jdroficinamecanica?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-
-        <div id="menu-mobile" class="class-menu-mobile">
-            <ul id="menu" class="class-menu">
-                <li class="nav-item"><a class="nav-link" href="#" class="menu-home"><span>HOME</span></a></li>
-                <li class="nav-item"><a class="nav-link li-jdr" href="jdr.html" target="_self" rel="jdr"><span>JDR</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#">SERVIÇOS</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">CONTATO</a></li>
-            </ul>
-        </div>
+        </nav>
     </header>
 
     <main>
