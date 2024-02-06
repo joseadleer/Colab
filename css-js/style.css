@@ -65,12 +65,8 @@ header .menu li a{
     font-size: 25px;
     font-weight: 600;
     font-family: var(--font);
-    transition: color 0.3s;
 }
 
-header .menu li a:hover{
-    color: rgb(0, 255, 255);
-}
 
 header nav a button{
     margin-left: 20px;
@@ -203,16 +199,10 @@ main{
 
 .whatsapp-float a {
     display: block;
-    background-color: #25D366; /* Cor do WhatsApp */
+    background-color: #59d600; /* Cor do WhatsApp */
     color: #fff;
     padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-}
-
-.whatsapp-float a:hover {
-    background-color: #128C7E; /* Cor do WhatsApp ao passar o mouse */
+    border-radius: 20rem;
 }
 
 
